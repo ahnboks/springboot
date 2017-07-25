@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nx/thymeleaf/layout"
+	layout:decorate="~{/layout/layout1}">
+	<body>
+		<div layout:fragment="content">Hello Page</div>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/main.js"></script>
+		<th:block layout:fragment="script"></th:block>
+	</body>
+</html>
