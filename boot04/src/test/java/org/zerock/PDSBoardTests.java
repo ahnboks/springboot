@@ -110,6 +110,7 @@ public class PDSBoardTests {
 		repo.saveAll(list);
 		
 	}
+	
 	@Transactional
 	@Test 
 	public void viewSummary() {
